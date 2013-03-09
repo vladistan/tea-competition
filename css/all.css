@@ -33,6 +33,9 @@ form,fieldset {
 	padding:0;
 	border-style:none;
 }
+
+.header h2 { color: #e44;}
+
 h1 {
 	color:#fff;
 	font:45px/56px 'HelveticaNeueLTStd-MdCn', Arial, Helvetica, sans-serif;
@@ -167,7 +170,7 @@ h6 {
 	background:url(../images/date-green.png) no-repeat;
 	bottom:-77px;
 	color:#fff;
-	font:23px/28px 'HelveticaNeueLTStd-MdCn', Arial, Helvetica, sans-serif;
+/*	font:23px/28px 'HelveticaNeueLTStd-MdCn', Arial, Helvetica, sans-serif; */
 	height:28px;
 	left:59px;
 	padding:27px 51px 23px 48px;
@@ -179,7 +182,7 @@ h6 {
 	background:url(../images/date-blue.png) no-repeat;
 	bottom:-66px;
 	color:#fff;
-	font:20px/24px 'HelveticaNeueLTStd-MdCn', Arial, Helvetica, sans-serif;
+	/*font:20px/24px 'HelveticaNeueLTStd-MdCn', Arial, Helvetica, sans-serif;*/
 	height:24px;
 	left:57px;
 	padding:29px 51px 21px 48px;
@@ -191,7 +194,7 @@ h6 {
     background:url(../images/date-grey.png) no-repeat;
     bottom:-63px;
     color:#fff;
-    font:16px/20px 'HelveticaNeueLTStd-MdCn', Arial, Helvetica, sans-serif;
+    /*font:16px/20px 'HelveticaNeueLTStd-MdCn', Arial, Helvetica, sans-serif;*/
     height:20px;
     left:55px;
     padding:31px 43px 23px 44px;
