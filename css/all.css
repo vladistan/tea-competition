@@ -75,7 +75,7 @@ h6 {
 .main-container {background:url(../images/bg-main.png) repeat-x 0 3px;}
 .main {
 	margin:0 auto;
-	min-height:860px;
+	min-height:1060px;
 	width:1024px;
 }
 .row {
@@ -204,27 +204,44 @@ h6 {
 }
 .row-1 {
 	border-bottom:1px solid #f6f6f6;
-	padding:65px 0 21px;
+	padding: 65px 0 60px 110px;
 }
+
+
+
 .row-1 .box-holder {
-	float:none;
-	margin:0 auto;
+	float:left;
 	width:110px;
+    margin: 0 80px;
 }
 .row-1 .decor-l,
 .row-1 .decor-r,
 .row-1 .arrow-b {display:block;}
-.row-2 {	padding:18px 0 10px;}
-.row-2 .group {
-	float:none;
-	margin:0 auto;
-	width:262px;
+.row-2 {
+    padding: 18px 0 93px 200px;
+    width: 640px;
 }
+.row-2 .group {
+	/* float:none;
+	margin:0 auto; */
+	width:258px;
+}
+
+
+
+
+
 .row-2 .group:after {
 	content:'';
 	clear:both;
 	display:block;
 }
+
+.row-2 .group-2 {
+    float:right;
+    margin:0 0px 0 0;
+}
+
 .row-2 .box {border-color:#add498;}
 .row-2 .box-1 .arrow-l,
 .row-2 .box-2 .arrow-r {display:block;}
@@ -239,8 +256,8 @@ h6 {
 .row-3 .box-1 .arrow-bl,
 .row-3 .box-2 .arrow-br {display:block;}
 .row-4 {
-	background:#f6f6f6;
-	padding:12px 0 67px;
+	
+    padding: 31px 0 67px
 }
 .row-4 .group {margin:0 0 0 21px;}
 /* footer */
