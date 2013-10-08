@@ -11,3 +11,5 @@ markup-validator_errors.properties
 markup-validator_warnings.properties
 unicorn_output.html
 .git/*
+noSync
+.gitignore
