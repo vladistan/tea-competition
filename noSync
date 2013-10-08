@@ -1,4 +1,3 @@
-/.idea/
 css3-validator_errors.properties
 css3-validator_warnings.properties
 feed_errors.properties
@@ -11,3 +10,4 @@ jslint.xml
 markup-validator_errors.properties
 markup-validator_warnings.properties
 unicorn_output.html
+.git/
