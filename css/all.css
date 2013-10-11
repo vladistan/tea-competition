@@ -284,6 +284,8 @@ h6 {
 .partners li a {
 	display:table-cell;
 	height:74px;
+    width: 200px;
+    text-align: center;
 	vertical-align:middle;
 }
 .copyright {
