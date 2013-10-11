@@ -218,8 +218,8 @@ h6 {
 .row-1 .decor-r,
 .row-1 .arrow-b {display:block;}
 .row-2 {
-    padding: 18px 0 93px 200px;
-    width: 640px;
+    padding: 18px 0 93px 0px;
+    width: 800px;
 }
 .row-2 .group {
 	/* float:none;
@@ -227,7 +227,9 @@ h6 {
 	width:258px;
 }
 
-
+.row-2 .right-box {
+    float: right;
+}
 
 
 
