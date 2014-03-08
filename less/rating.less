@@ -2,20 +2,20 @@
 /* Rating Stars */
 /*-----------------------------------*/
 
-.rating {display: inline-block;}
+.rating {display: block;}
 
 .rating span.star {
   font-family: "glyphicons halflings";
   font-weight: normal;
   font-style: normal;
-  float: left;
   padding: 0 1px;
   cursor:pointer;
 }
 .rating span.star:before {
   content: "\e006";
-  display: block;
+  display: inline-block;
   font-size: 14px;
+  float: left;
   color: #a7b8c8;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -24,5 +24,3 @@
 }
 .rating-large span.star:before {font-size: 18px;}
 .rating span.voted:before {color: #c9376e;}
-.rating:hover span.star:before {color: #a7b8c8 !important;}
-.rating:hover span.star.over:before {color: #c9376e !important;}
