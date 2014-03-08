@@ -14,7 +14,7 @@
 /*-----------------------------------*/
 
 /* Level 0 */
-.menu {background: #398fc7; z-index: 1000;}
+.menu {background: #398fc7; z-index: 1000;  }
 .ie8 .menu {filter:none; background: #398fc7;}  /* IE8 understands dropdown feature only without gradient */
 .menu a:hover, .menu a.hover {color: #fff !important;}
 
@@ -146,7 +146,6 @@
   box-shadow: none;
 }
 .menu.style2 > li {
-  border-top: 3px solid #4bb4e8;
   border-bottom: 3px solid #4bb4e8;
 }
 .menu.style2 > li:hover, .menu.style2 > li.hover {
@@ -175,6 +174,11 @@
   margin: 0 3px 3px 0;
   vertical-align: middle;
 }
+
+.menu.style2 .current {
+  color: #e44;
+}
+
 
 /* User Menu */
 /*-----------------------------------*/
